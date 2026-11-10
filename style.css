@@ -89,8 +89,8 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), 
-              url('https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=1350&q=80');
+  background: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)),
+    url('./city\ streetsjpg.jpg') no-repeat center center;
   background-size: cover;
   background-position: center;
   color: white;
@@ -226,7 +226,7 @@ nav a:hover {
   padding: 25px;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
   position: relative;
 }
 
@@ -262,7 +262,8 @@ nav a:hover {
   transition: all 0.3s;
 }
 
-.sim-btn.active, .sim-btn:hover {
+.sim-btn.active,
+.sim-btn:hover {
   background: var(--primary-color);
   color: white;
 }
@@ -318,8 +319,13 @@ nav a:hover {
   text-align: center;
 }
 
-.pipe-water { background-color: #0284c7; }
-.pipe-sewer { background-color: #059669; }
+.pipe-water {
+  background-color: #0284c7;
+}
+
+.pipe-sewer {
+  background-color: #059669;
+}
 
 .sim-stats {
   display: flex;
@@ -355,7 +361,7 @@ nav a:hover {
   background: white;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .check-item {
