@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfraPlan | Yo'llar va Kommunikatsiyalar Integratsiyasi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo"><i class="fa-solid fa-road"></i> Infra<span>Plan</span></a>
+      <nav>
+        <ul>
+          <li><a href="#about">Muammo va Yechim</a></li>
+          <li><a href="#standards">Xalqaro Standartlar</a></li>
+          <li><a href="#interactive">Simulyator</a></li>
+          <li><a href="#checklist">Boshqaruv Chek-listi</a></li>
+        </ul>
+      </nav>
+      <button class="cta-btn" onclick="scrollToSection('interactive')">O'rganishni boshlash</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Samarali Yo'l Qurilishi: Bir marta qaz, to'g'ri qur!</h1>
+      <p>Asfalt yo'llarni qayta-qayta qazishni to'xtatish uchun xalqaro tajriba (Dig Once Policy) va integratsiyalashgan infratuzilma rejalashtirish platformasi.</p>
+      <div class="hero-btns">
+        <a href="#interactive" class="btn btn-primary">Interaktiv Simulyator</a>
+        <a href="#standards" class="btn btn-secondary">Standartlarni ko'rish</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem vs Solution -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Eski Yondashuv vs Xalqaro Tajriba</h2>
+      <div class="grid grid-2">
+        <div class="card card-bad">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Noto'g me'yor (Eski usul)</h3>
+          <ul>
+            <li><i class="fa-solid fa-xmark"></i> Yo'l asfalt qilinadi.</li>
+            <li><i class="fa-solid fa-xmark"></i> Vodoprovod uchun asfalt buzib qaziladi.</li>
+            <li><i class="fa-solid fa-xmark"></i> Qayta asfalt yotqiziladi.</li>
+            <li><i class="fa-solid fa-xmark"></i> Kanalizatsiya uchun yana qayta qaziladi.</li>
+            <li><i class="fa-solid fa-xmark"></i> <b>Natija:</b> Budjet sarfi 3x, yo'l sifati buzilishi, harakatga xalaqit.</li>
+          </ul>
+        </div>
+        <div class="card card-good">
+          <h3><i class="fa-solid fa-circle-check"></i> Xalqaro Standart (Dig Once Policy)</h3>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> <b>1. Rejalashtirish:</b> Barcha tashkilotlar (Suv, Gaz, Elektr, Aloqa) yagona loyihaga kiradi.</li>
+            <li><i class="fa-solid fa-check"></i> <b>2. Qazish va Yotqizish:</b> Barcha quvurlar yagona xandaqda (Single Trench) joylashtiriladi.</li>
+            <li><i class="fa-solid fa-check"></i> <b>3. Zaxira kanallari:</b> Kelajakdagi kabellar uchun maxsus kollektor/gʻiloflar qoʻyiladi.</li>
+            <li><i class="fa-solid fa-check"></i> <b>4. Yakuniy Asfaltlash:</b> Sifatli qoplama yotqiziladi va 10-15 yil yoʻl qazilmaydi.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- International Standards Steps -->
+  <section id="standards" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Yo'l Qurilishining 5 Bosqichli Xalqaro Ketma-ketligi</h2>
+      <div class="steps-wrapper">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h4>Raqamli Xarita va GIS</h4>
+          <p>Barcha sub yerosti kommunikatsiyalari GIS tizimida raqamlashtiriladi va muvofiqlashtiriladi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h4>Chuqur Yer Inshootlari</h4>
+          <p>Eng chuqur joylashuvchi tarmoqlar (Kanalizatsiya va drenaj) birinchi bo'lib o'tkaziladi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h4>Yuqori Quvurlar</h4>
+          <p>Ichimlik suvi, gaz va elektr/aloqa kabel kanallari belgilangan masofalarda o'rnatiladi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h4>Zichlash va Sinov</h4>
+          <p>Tuproq qatlami zichlanadi va barcha quvurlar bosim hamda sizishga test qilinadi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">5</div>
+          <h4>Asfaltlash</h4>
+          <p>Shagʻal va asfalt qatlamlari yotqizilib, kommunal lyuklar yoʻl satxiga tenglashtiriladi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Comparison Simulator -->
+  <section id="interactive" class="section">
+    <div class="container">
+      <h2 class="section-title">Interaktiv Taqqoslash Simulyatori</h2>
+      <p class="section-desc">Usullardan birini tanlang va budjet sarfi hamda yo'l holati o'zgarishini ko'ring:</p>
+      
+      <div class="sim-controls">
+        <button id="btn-wrong" class="sim-btn active" onclick="runSimulation('wrong')">Eski Usul (Taqiq) Simulyatsiyasi</button>
+        <button id="btn-right" class="sim-btn" onclick="runSimulation('right')">Xalqaro Usul Simulyatsiyasi</button>
+      </div>
+
+      <div class="sim-display">
+        <div class="visual-road" id="visual-road">
+          <div id="road-surface" class="road-surface">Asfalt Qatlami</div>
+          <div id="underground" class="underground">
+            <span id="underground-text">Yer osti qatlami</span>
+          </div>
+        </div>
+        <div class="sim-stats">
+          <div class="stat-box">
+            <span>Umumiy Sarflangan Budjet:</span>
+            <strong id="stat-cost">$100,000</strong>
+          </div>
+          <div class="stat-box">
+            <span>Yo'l Sifati Holati:</span>
+            <strong id="stat-quality">100%</strong>
+          </div>
+          <div class="stat-box">
+            <span>Bajarilgan Ishlar Logs:</span>
+            <div id="sim-log">Tizim tayyor...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Management Checklist Section -->
+  <section id="checklist" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Muhandislar va Shaharsozlar uchun Chek-list</h2>
+      <div class="checklist-container">
+        <label class="check-item">
+          <input type="checkbox" id="c1">
+          <span>Tegishli barcha kommunal tashkilotlar (Suv, Gaz, Elektr, Telekom) bilvosita kelishildi.</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" id="c2">
+          <span>Kelajakdagi kengaytmalar uchun zaxira kanallari (Ducting) loyihaga kiritildi.</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" id="c3">
+          <span>Kanalizatsiya va drenaj nishabliklari oldindan hisoblanib, birinchi bo'lib qazildi.</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" id="c4">
+          <span>Suv va elektr tarmoqlari o'rtasidagi minimal xavfsiz masofalar saqlandi.</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" id="c5">
+          <span>Tuproq zichligi va quvurlar sifat nazorati sinovdan o'tkazildi.</span>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 InfraPlan. Yo'l va Kommunikatsiyalarni Integratsiyalash Ta'lim Platformasi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
